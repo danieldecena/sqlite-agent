@@ -1,0 +1,3 @@
+#!/usr/bin/env zsh
+# Wrapper to execute the SQLite Agent CLI Core with clean environment and argument forwarding.
+exec /Users/home/Tools/sqlite-agent/sqlite_agent.py "$@"
